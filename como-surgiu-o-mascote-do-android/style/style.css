@@ -159,16 +159,13 @@ div.video {
     padding-bottom: 57px;
     position: relative;
     width: 90%;
-    height: 90%;
-    
+    height: 90%;    
 }
 
-div.video > iframe {
+div .video > iframe {
     position: absolute;
     top: 5%;
-    left: 5%;
-
-
+    left: 5%;    
 }
 
 aside {
