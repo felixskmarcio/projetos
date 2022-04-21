@@ -95,8 +95,8 @@ body {
 }
 
 .navigation.active {
-  width: 300px;
-  height: 400px;
+  width: 220px;
+  height: 300px;
   transition: width 0.5s, height 0.5s;
   transition-delay: 0s, 0.75s;
 }
