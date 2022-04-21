@@ -1,0 +1,511 @@
+/* Home */
+#home{
+  position: relative;
+  text-align: center;
+  display: grid;
+  justify-content: center;
+  margin-top: 8rem;
+  z-index: 4;
+}
+
+.textHome{
+  padding: 2rem;
+  border-radius: 1rem;
+  color: var(--b1);
+}
+
+.textHome p{
+  font-size: 2rem;
+  font-family: var(--font-family-secundary);
+  text-shadow: 0 0 1rem var(--b1);
+}
+
+.textHome p span.color_purple{
+  text-shadow: 0 0 1rem var(--purple);
+}
+
+.textHome p span.color_green{
+  text-shadow: 0 0 1rem var(--green);
+}
+
+.textHome h1{
+  font-family: var(--font-family-primary);
+  font-size: 3rem;
+  text-shadow: 0 0 1rem var(--b1);
+}
+
+.textHome i{
+  font-size: 1.8rem;
+}
+
+.contImg{
+  width: 12rem;
+  margin: auto;
+}
+
+.contImg img{
+  width: 100%;
+}
+
+#pulse-img{ 
+  position: relative; 
+  border-radius: 100%;
+  background-image: linear-gradient(190deg, var(--b1), var(--color-primary));
+  border: .2rem solid var(--color-light-alt);
+  box-shadow: 0 0 2rem var(--color-primary);
+}
+
+
+.cont-a,
+.cont-b{
+  width: 30rem;  
+  height: 150px;
+  font-size: 1.5rem;
+  font-family: var(--font-family-primary);
+  margin: 20px auto;
+  padding: 2rem;
+  border-radius: 12px;
+  background: var(--color-light);
+  box-shadow: 0 0 12px var(--color-shadow);
+  animation: bounceInUp 4s;
+}
+
+.cont-b a:hover,
+.cont-b a:focus{
+  color: var(--color-dark);
+}
+
+.btn-link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 10rem;
+  height: 3rem;
+  background: rgba(0,0,0,.5);
+  color: var(--color-light-alt);
+  border-radius: .5rem;
+  transition: .2s ease-out;
+}
+
+.btn-link:focus,
+.btn-link:hover{
+  background: var(--color-primary);
+  color: var(--color-light);
+  box-shadow: 0 0 3rem var(--color-primary);
+}
+
+/* about */
+#about{
+  background: var(--color-dark);
+  box-shadow: 0 0 12px var(--color-shadow);
+  }
+
+.sub{
+  margin: 10px;
+  border-radius: 12px;
+}
+
+.grupo_a{
+  text-align: center;
+}
+
+.grupo_a h2{
+  text-align: center;
+  position: relative;
+  margin: 10px auto;
+  font: 400 2.5rem var(--font-family-primary);
+  color: var(--color-primary);
+  text-shadow: 0 0 30px var(--color-primary);
+}
+
+  
+.grupo_a h2::after{
+  content: '';
+  text-align: center;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, var(--color-primary)50%, var(--color-dark)100%);
+  position: absolute;
+  left: 0;
+  bottom: -1rem;
+  transition: width 0.2s;
+}
+
+.grupo_a span.sub-title{
+  position: relative;
+  color: var(--color-light);
+  text-shadow: 0 0 30px var(--red);
+}
+
+.grupo_a i{
+  margin: 20px auto;
+}
+
+.grupo_a .fa-react{
+  text-shadow: 0 0 30px var(--blue);
+  animation: text_shadow 1s ease-out infinite;
+}
+
+.grupo_a .fa-js-square{
+  text-shadow: 0 0 30px var(--yellow);
+  animation: text_shadow 1s ease-out infinite;
+}
+
+.grupo_a .fa-node-js{
+  text-shadow: 0 0 30px var(--green);
+  animation: text_shadow 1s ease-out infinite;
+}
+
+
+.grupo_a span.sub-title::after{
+  content: '';
+  width: 100%;
+  margin: auto;
+  height: 2px;
+  background: linear-gradient(270deg, var(--red)50%, var(--color-dark)100%);
+  position: absolute;
+  left: 0;
+  bottom: -0.1rem;
+  animation: line_efect 1s infinite;
+}
+.grupo_a p{
+  text-align: justify;
+  margin: 20px;
+  font: 400 1.5rem var(--font-family-primary);
+  color: var(--color-light);
+}
+
+.grupo_a .interests{
+  text-align: center;
+}
+
+.grupo_b{
+  margin: 20px auto;
+}
+
+#Saly-13{
+  width: 410px;
+  height: 410px;
+  margin: 20px auto;
+  background-image: url("../img/icon/Saly-13.png");
+  background-repeat: no-repeat;
+}
+
+/* skills */
+#skills{
+  text-align: center;
+}
+
+#skills h2{
+  position: relative;
+  font: 400 2.5rem var(--font-family-primary);
+  margin: 50px auto;
+}
+
+#skills a{
+  transition: .3s;
+}
+#skills a:hover{
+  color: var(--color-primary);
+}
+  
+#skills h2::after{
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, var(--color-primary)50%, var(--color-light)100%);
+  position: absolute;
+  left: 0;
+  bottom: -0.1rem;
+  transition: width 0.2s;
+}
+
+#linguages{
+  border-radius: 12px;
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  gap: 2vh;
+}
+
+.ling{
+  display: flex;
+  margin: auto;
+}
+
+.ling a i,
+.label_icon{
+  color: var(--color-dark);
+}
+
+.label_icon{
+    font-size: 20px;
+}
+
+.icon_link{
+    font-size: 50px;
+}
+
+
+.DivLink{
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  outline: none;
+  margin: 10px;
+  width: 150px;
+  height: 150px;  
+  font-family: var(--font-family-secundary);
+  background: var(--color-light);
+  color: var(--color-dark);
+  border: 5px solid transparent;
+  box-shadow: 0px 0px 20px var(--color-shadow);
+  border-radius: 12px;
+  transition: .2s;
+}
+
+.DivLink:hover{    
+  transform: scale(1.2);
+}
+
+.span_icon{
+  color: var(--color-dark);
+}
+
+.card-html:hover,
+.card-html:focus{
+  background: var(--color-dark);
+  border: .3rem solid var(--orange);
+  box-shadow: 0px 0px 20px var(--orange);
+  text-shadow: 0 0 100px var(--color-light);
+}
+.card-html:hover i,
+.card-html:focus i,
+.card-html:hover span,
+.card-html:focus span{
+  color: var(--orange);
+}
+
+.card-css:hover,
+.card-css:focus{
+  opacity: 1;
+  background: var(--color-dark);
+  border: .3rem solid var(--blue);
+  box-shadow: 0px 0px 20px var(--blue);
+  text-shadow: 0 0 100px var(--color-light);
+}
+.card-css:hover i,
+.card-css:focus i,
+.card-css:hover span,
+.card-css:focus span{
+  color: var(--blue);
+}
+
+.card-js:hover,
+.card-js:focus{
+  opacity: 1;
+  background: var(--color-dark);
+  border: .3rem solid var(--yellow);
+  box-shadow: 0px 0px 20px var(--yellow);
+  text-shadow: 0 0 100px var(--color-light);
+}
+.card-js:hover i,
+.card-js:focus i,
+.card-js:hover span,
+.card-js:focus span{
+  color: var(--yellow);
+}
+
+.card-git:hover,
+.card-git:focus{
+  opacity: 1;
+  background: var(--color-dark);
+  border: .3rem solid var(--red);
+  box-shadow: 0px 0px 20px var(--red);
+  text-shadow: 0 0 100px var(--color-light);
+}
+.card-git:hover i,
+.card-git:focus i,
+.card-git:hover span,
+.card-git:focus span{
+  color: var(--red);
+}
+
+.card-github:hover,
+.card-github:focus{
+  opacity: 1;
+  background: var(--color-dark);
+  border: .3rem solid var(--color-light);
+  box-shadow: 0px 0px 20px var(--color-shadow);
+  text-shadow: 0 0 100px var(--color-light);
+}
+.card-github:hover i,
+.card-github:focus i,
+.card-github:hover span,
+.card-github:focus span{
+  color: var(--color-light);
+}
+
+.card-py:hover,
+.card-py:focus{
+  opacity: 1;
+  background: var(--color-dark);
+  border: .3rem solid var(--yellow);
+  box-shadow: 0px 0px 20px var(--blue);
+  text-shadow: 0 0 100px var(--color-light);
+}
+.card-py:hover i,
+.card-py:focus i,
+.card-py:focus span,
+.card-py:hover span{
+  background-image: linear-gradient(190deg, var(--blue), var(--yellow));
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.card-node:hover,
+.card-node:focus{
+  opacity: 1;
+  background: var(--color-dark);
+  border: .3rem solid var(--green);
+  box-shadow: 0px 0px 20px var(--green);
+  text-shadow: 0 0 100px var(--color-light);
+}
+.card-node:hover i,
+.card-node:focus i,
+.card-node:focus span,
+.card-node:hover span{
+  color: var(--green);
+}
+
+.card-php:hover,
+.card-php:focus{
+  opacity: 1;
+  background: var(--color-dark);
+  border: .3rem solid var(--blue);
+  box-shadow: 0px 0px 20px var(--blue);
+  text-shadow: 0 0 100px var(--color-light);
+}
+.card-php:hover i,
+.card-php:focus i,
+.card-php:focus span,
+.card-php:hover span{
+  color: var(--blue);
+}
+
+.card-mysql:hover,
+.card-mysql:focus{
+  opacity: 1;
+  background: var(--color-dark);
+  border: .3rem solid var(--blue);
+  box-shadow: 0px 0px 20px var(--orange);
+  text-shadow: 0 0 100px var(--color-light);
+}
+.card-mysql:hover i,
+.card-mysql:focus i,
+.card-mysql:focus span,
+.card-mysql:hover span{
+  background-image: linear-gradient(190deg, var(--blue), var(--orange));
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.card-java:hover,
+.card-java:focus{
+  opacity: 1;
+  background: var(--color-dark);
+  border: .3rem solid var(--blue);
+  box-shadow: 0px 0px 20px var(--red);
+  text-shadow: 0 0 100px var(--color-light);
+}
+.card-java:hover i,
+.card-java:focus i,
+.card-java:focus span,
+.card-java:hover span{
+  background-image: linear-gradient(190deg, var(--blue), var(--red));
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+
+/* parte do github */
+.card_es{
+  width: 100%;
+  height: 200px;
+}
+
+@media(max-width: 1100px){
+
+  .header-profile{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #home .cont,
+  #about .cont,
+  #skills .cont{
+    display: block;
+  }
+
+  #skills{    
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  } 
+
+  #skills h2{
+    font-size: 2rem;
+  }
+
+  #linguages{        
+      display: grid;
+  }
+  .ling{
+      display: block;
+  }
+
+  .cont-a,
+  .cont-b{
+    width: 100%;
+    max-width: 1100px;
+    height: auto;
+    margin: .5rem auto;
+  }
+
+  #Saly-13{      
+    width: 300px;
+    height: 300px;
+  }
+
+  #Div_snake{
+    margin: auto;
+  }
+
+  #Div_snake img{
+    width: 100%;
+  }
+  
+  #cont-footer p, #cont-footer a {
+    display: block;
+  }
+
+}
+
+@media(max-width: 500px){
+  p .name-profile{
+    font: 500 2rem var(--font-family-primary);
+    margin-bottom: 1.5rem;
+    display: block;
+  }
+    
+  p .name-profile::after{
+    bottom: -.5rem;
+  }
+}

@@ -1,0 +1,14 @@
+@keyframes line_efect{
+  from{
+    width: 0%;
+  }
+  to{
+    width: 100%;
+  }
+}
+
+@keyframes text_shadow{
+  from{
+    text-shadow: 0 0 1rem transparent;
+  }
+}
