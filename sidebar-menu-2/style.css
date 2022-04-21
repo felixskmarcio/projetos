@@ -1,0 +1,103 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+/*====  RESET ============================ */
+
+*
+    {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-family-primary);
+    }
+
+
+/*====  VARIABLES ============================ */
+:root 
+    {  
+    /* sizes */
+    --header-height: 4rem;
+  
+    /* colors_base_site */
+    --color-dark:  #1F2326;
+    --color-tranp: rgba(0,0,0,0.5);
+    --color-light: #F8F8F8;
+    --color-light-alt: #E4E4E4;
+    --color-shadow: rgb(0 0 0 / 0.30);
+    --color-primary: #8338ec; 
+    /* colors*/
+    --purple: #8338ec;
+    --purple-dark: #1a0538;
+    --blue: #3a86ff;
+    --green: #00BB72;
+    --yellow: #ffbe0b;
+    --orange: #f3722c;
+    --red: #ff006e;
+    --b1: #110035;
+    --b2: #7690bd;
+    /* fonts */
+    --font-size: 1.875rem;
+    --font-family-primary: 'Montserrat', sans-serif;     
+  }
+
+    /*==== Global ============================ */ 
+
+body 
+    {
+    min-height: 100vh;
+    background: var(--color-primary);
+    }
+
+
+    /*==== navigation ============================ */ 
+
+.navigation
+    {
+    position: fixed;
+    top: 20px;
+    right: 20px;    
+    width: 120px;
+    height: 60px;
+    background: white;
+    box-shadow: 0 25px 35px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-between;
+    }
+
+.navigation .userBx
+    {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background: white;
+    }
+
+.navigation .userBx .imgBx
+    {
+    position: relative;
+    min-width: 60px;
+    height: 60px;    
+    overflow: hidden;
+    background: black;
+    border-radius: 50%;
+    border: 10px solid white;
+    }
+
+    .navigation .userBx .imgBx img
+    {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;    
+    }
+
+.navigation .menuToggle
+    {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background: red;
+    cursor: pointer;
+    }
