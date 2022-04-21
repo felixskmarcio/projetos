@@ -25,7 +25,7 @@
     <img align="center" alt="JavaScript"src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/> 
     <img align="center" src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" alt="javascript" width="1000"/>	
 
-    <details open="">
+<details open="">
 <summary><b> Menu de navegação de conta de usuário</b></summary>
 >Foi criado um menu de navegação de conta de usuário.
 <summary><b>Tecnologias utilizadas</b></summary>
