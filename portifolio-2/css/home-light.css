@@ -355,6 +355,28 @@
   color: var(--color-light);
 }
 
+
+
+
+.card-c:hover,
+.card-c:focus {
+  opacity: 1;
+  background: var(--color-dark);
+  border: 0.3rem solid var(--color-light);
+  box-shadow: 0px 0px 20px var(--color-shadow);
+  text-shadow: 0 0 100px var(--color-light);
+}
+.card-c:hover i,
+.card-c:focus i,
+.card-c:hover span,
+.card-c:focus span {
+  color: var(--color-shadow);
+}
+
+
+
+
+
 .card-py:hover,
 .card-py:focus {
   opacity: 1;
