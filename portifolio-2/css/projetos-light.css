@@ -1,0 +1,108 @@
+header #contDiv{
+  right: 3rem;
+}
+
+#main{
+  position: relative;
+  text-align: center;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin: 4rem auto;
+}
+
+#main h1{
+  color: var(--color-primary);
+  text-shadow: 0 0 1rem var(--color-primary);
+  font-family: var(--font-family-primary);
+  font-size: 3rem;
+}
+
+p{
+  color: var(--color-primary);
+  text-shadow: 0 0 1rem var(--color-primary);
+  font-family: var(--font-family-secundary);
+}
+
+#list-project{
+  display: inline-block;
+  margin: 8rem auto;
+  list-style: none;
+}
+
+#list-project li{
+  display: inline-block;
+  margin: 1rem;
+}
+
+.contProject{
+  position: relative;
+  display: grid;
+  text-align: center;
+  margin-top: 3rem;
+  max-width: 25rem;
+}
+
+.contProject img{
+  position: relative;
+  width: 100%;
+  border-radius: .5rem;
+  box-shadow: 0 0 .5rem var(--color-tranp);
+  z-index: 1;
+}
+
+.titleProject{
+  margin-top: 1rem;
+  font-family: var(--font-family-primary);
+}
+
+.contProject:hover .cardDesc{
+  display: block;
+}
+
+.cardDesc{
+  display: none;
+  position: absolute;
+  top: 0;
+  background: rgba(0,0,0,0.8);
+  color: var(--color-light);
+  font-family: var(--font-family-primary);
+  border-radius: .5rem;
+  z-index: 2;
+  width: 400px;
+  height: 100%;
+}
+
+.cardDesc h3{
+  text-shadow: 0 0 1rem var(--color-light);
+  margin: 1rem auto;
+}
+
+.cardDesc p{
+  color: var(--color-light);
+  text-shadow: 0 0 1rem transparent;
+  font-size: 1.1rem;
+  margin: 2rem;
+}
+
+.cardDesc a{
+  color: var(--color-light);
+  text-decoration: underline;
+}
+
+.cardDesc a:hover{
+  opacity: .7;
+}
+
+.linkProject{
+  position: absolute;
+  bottom: 1rem;
+  width: 100%;
+}
+
+@media(max-width: 1250px){
+  #list-project{
+    margin: auto;
+    display: block;
+  }
+}
