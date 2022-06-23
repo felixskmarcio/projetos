@@ -1,7 +1,7 @@
 
 # <summary align="center"><b><h2>Menu de navegação de conta de usuário</h2></b></summary>
 
-<img align="center" src="https://github.com/felixskmarcio/projetos/blob/main/sidebar-menu-2/ScreenRecorderProject2.gif" alt="sidebar" width="200"/>  
+<img align="center" src="https://github.com/felixskmarcio/projetos/blob/main/sidebar-menu-2/ScreenRecorderProject2.gif" alt="sidebar" width="800"/>  
 <details open="">
 
 <summary><b>Tecnologias utilizadas</b></summary>
