@@ -1,7 +1,7 @@
 
 # <summary align="center"><b><h2>Efeitos de foco do menu de mídia social isométrica CSS 3D</h2></b></summary>
 
-<img align="center" src="https://github.com/felixskmarcio/projetos/blob/main/efeitos-de-foco-do-bot%C3%A3o-brilhante-CSS/Gif.gif" alt="sidebar" width="800"/>  
+<img align="center" src="https://github.com/felixskmarcio/projetos/blob/main/efeitos-de-foco-do-menu-de-midia-social-isometrica-CSS-3D/Gif.gif" alt="sidebar" width="800"/>  
 <details open="">
 
 <summary><b>Tecnologias utilizadas</b></summary>
